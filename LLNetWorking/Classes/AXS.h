@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JLNetWorking : NSObject
+@interface AXS : NSObject
 + (void)getVersion;
 @end
 

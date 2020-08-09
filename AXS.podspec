@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JLNetWorking'
+  s.name             = 'AXS'
   s.version          = '0.1.0'
   s.summary          = 'Test,Test,Test.'
 
