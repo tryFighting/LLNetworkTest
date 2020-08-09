@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LLNetWorking : NSObject
+@interface JLNetWorking : NSObject
 + (void)getVersion;
 @end
 
