@@ -1,0 +1,6 @@
+framework module LLNetWorking {
+  umbrella header "LLNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
