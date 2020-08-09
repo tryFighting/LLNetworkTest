@@ -26,13 +26,13 @@
 		9A16AD129BDFD4FE4286D67456728060 /* LLNetWorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D397CDF4092FEBF5B074A0E580554041 /* LLNetWorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		AD58028C3E47288A6A087F84D8866A2C /* LLNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8568A5C51FE6A0764A2FE2D9ED535F49 /* LLNetWorking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD58028C3E47288A6A087F84D8866A2C /* JLNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8568A5C51FE6A0764A2FE2D9ED535F49 /* JLNetWorking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C1964AC39A72E30C5B08633E70023980 /* Pods-LLNetWorking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2905AE900FC0E2C7DCBAD3BD4F24906F /* Pods-LLNetWorking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D9B1CABD6BD4512D42E18C87FA12D63E /* LLNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FFB18FE6994246691CA2FA684669DE /* LLNetWorking.m */; };
+		D9B1CABD6BD4512D42E18C87FA12D63E /* JLNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FFB18FE6994246691CA2FA684669DE /* JLNetWorking.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -95,7 +95,7 @@
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7CDCD13AF31347977A081BBFFEC8CD33 /* LLNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLNetWorking-dummy.m"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		8568A5C51FE6A0764A2FE2D9ED535F49 /* LLNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLNetWorking.h; path = LLNetWorking/Classes/LLNetWorking.h; sourceTree = "<group>"; };
+		8568A5C51FE6A0764A2FE2D9ED535F49 /* JLNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLNetWorking.h; path = LLNetWorking/Classes/JLNetWorking.h; sourceTree = "<group>"; };
 		885AA6BB00FB93B5486B055B4982AE47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -122,7 +122,7 @@
 		D397CDF4092FEBF5B074A0E580554041 /* LLNetWorking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLNetWorking-umbrella.h"; sourceTree = "<group>"; };
 		D77ACF5BBC3A6DB76000BC1616CFF7A6 /* LLNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		E9FFB18FE6994246691CA2FA684669DE /* LLNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLNetWorking.m; path = LLNetWorking/Classes/LLNetWorking.m; sourceTree = "<group>"; };
+		E9FFB18FE6994246691CA2FA684669DE /* JLNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLNetWorking.m; path = LLNetWorking/Classes/JLNetWorking.m; sourceTree = "<group>"; };
 		EFB1EDCCBCC0E07052CF1E7E9641DDF9 /* Pods-LLNetWorking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLNetWorking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F226E325D5180840D789B15CB8A0410A /* Pods-LLNetWorking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLNetWorking_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F2E8BB0C81774E14F9E873E2C3A242D6 /* Pods-LLNetWorking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLNetWorking_Tests.modulemap"; sourceTree = "<group>"; };
@@ -274,8 +274,8 @@
 		9F70287B995221BF2CC6C6F603F70779 /* LLNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				8568A5C51FE6A0764A2FE2D9ED535F49 /* LLNetWorking.h */,
-				E9FFB18FE6994246691CA2FA684669DE /* LLNetWorking.m */,
+				8568A5C51FE6A0764A2FE2D9ED535F49 /* JLNetWorking.h */,
+				E9FFB18FE6994246691CA2FA684669DE /* JLNetWorking.m */,
 				36FBDBB6C3F74F447DF088CC551BB876 /* Pod */,
 				BD419B58CFF3E40760F5DB56089D9737 /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A16AD129BDFD4FE4286D67456728060 /* LLNetWorking-umbrella.h in Headers */,
-				AD58028C3E47288A6A087F84D8866A2C /* LLNetWorking.h in Headers */,
+				AD58028C3E47288A6A087F84D8866A2C /* JLNetWorking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F455E088A1FF6A7180175A741F0F9B01 /* LLNetWorking-dummy.m in Sources */,
-				D9B1CABD6BD4512D42E18C87FA12D63E /* LLNetWorking.m in Sources */,
+				D9B1CABD6BD4512D42E18C87FA12D63E /* JLNetWorking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

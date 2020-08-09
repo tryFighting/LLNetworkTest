@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		926C30DF34C644E3E9EF81C5 /* Pods-LLNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLNetWorking_Tests/Pods-LLNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DF6CC9363AAD83DF4B9ACDA /* Pods-LLNetWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetWorking_Example.release.xcconfig"; path = "Target Support Files/Pods-LLNetWorking_Example/Pods-LLNetWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B476598AB621A86F9A06735C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B476598AB621A86F9A06735C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF35894AEB1EF563B0B024C4 /* Pods_LLNetWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28686A7999AC69059090784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C28686A7999AC69059090784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA91F48D7B7DAE099E8006B2 /* Pods-LLNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetWorking_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLNetWorking_Example/Pods-LLNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E2D5CBAA941B3DAC0AB83A24 /* LLNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLNetWorking.podspec; path = ../LLNetWorking.podspec; sourceTree = "<group>"; };
+		E2D5CBAA941B3DAC0AB83A24 /* JLNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLNetWorking.podspec; path = ../JLNetWorking.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E2D5CBAA941B3DAC0AB83A24 /* LLNetWorking.podspec */,
+				E2D5CBAA941B3DAC0AB83A24 /* JLNetWorking.podspec */,
 				C28686A7999AC69059090784 /* README.md */,
 				B476598AB621A86F9A06735C /* LICENSE */,
 			);
@@ -193,7 +193,6 @@
 				926C30DF34C644E3E9EF81C5 /* Pods-LLNetWorking_Tests.debug.xcconfig */,
 				39A8A0175FD448CCC6B54483 /* Pods-LLNetWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
